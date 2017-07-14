@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic,cyrillic-ext,latin-ext");
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s; }
+
+@-webkit-keyframes shake {
+  from {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); }
+  20%, 60% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px); }
+  40%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px); }
+  to {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); } }
+
+@keyframes shake {
+  from {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); }
+  20%, 60% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px); }
+  40%, 80% {
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px); }
+  to {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px); } }
+
+.pxl {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -850px;
+  z-index: 1; }
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  opacity: 1; }
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  overflow-x: hidden; }
+
+header {
+  background-color: #eaeaea;
+  background-image: url("../img/bgheader.png");
+  height: 760px; }
+
+.logo {
+  display: inline-block; }
+
+.trade {
+  display: inline-block; }
+  .trade p {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404042;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 10px; }
+    .trade p span {
+      color: #ffcb08;
+      font-size: 18px;
+      font-weight: bold; }
+
+.header-top {
+  padding: 13px 0; }
+  .header-top .logo {
+    vertical-align: top;
+    margin-left: 5px; }
+  .header-top .trade {
+    vertical-align: top;
+    margin-left: 66px;
+    margin-top: 11px; }
+  .header-top .btn-yellow {
+    vertical-align: top;
+    margin-left: 76px;
+    margin-top: 9px; }
+  .header-top .btn-number {
+    vertical-align: top;
+    margin-left: 54px;
+    margin-top: 5px; }
+
+.btn-yellow {
+  -webkit-box-shadow: 2px 4px 7px rgba(77, 0, 0, 0.47), inset 0 0 2px #ffffbe;
+  box-shadow: 2px 4px 7px rgba(77, 0, 0, 0.47), inset 0 0 2px #ffffbe;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #fc930b;
+  background-color: #ffcb08;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffa700), to(#ffd93a));
+  background-image: -webkit-linear-gradient(bottom, #ffa700 0%, #ffd93a 100%);
+  background-image: linear-gradient(to top, #ffa700 0%, #ffd93a 100%);
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.46);
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 11.5px 26.3px; }
+  .btn-yellow:hover, .btn-yellow:focus {
+    color: #000000;
+    -webkit-box-shadow: 2px -4px 7px rgba(77, 0, 0, 0.47), inset 0 0 2px #ffffbe;
+    box-shadow: 2px -4px 7px rgba(77, 0, 0, 0.47), inset 0 0 2px #ffffbe; }
+
+.btn-number {
+  color: #000000;
+  font-size: 37px;
+  font-weight: bold; }
+  .btn-number:hover, .btn-number:focus {
+    color: #5c5c5c; }
+
+.header-content h1 {
+  margin-top: 16px;
+  margin-left: -4px; }
+
+.header-content h4 {
+  margin-top: 16px; }
+
+.main-form {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 42px;
+  border: 2px solid #ffcb08;
+  background-color: rgba(249, 249, 249, 0.65);
+  margin-top: 45px;
+  text-align: center;
+  margin-left: -3px; }
+  .main-form p {
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 21px;
+    margin-top: 17px; }
+  .main-form form {
+    width: 276px;
+    margin: 0 auto;
+    margin-top: 29px; }
+    .main-form form .field {
+      width: 100%;
+      float: none; }
+      .main-form form .field input {
+        width: 100%;
+        height: 48px;
+        border: 1px solid #d0d0d0;
+        background-color: #ffffff;
+        outline: none;
+        text-align: center;
+        color: #8a8a8b;
+        font-size: 16px;
+        font-weight: 300; }
+    .main-form form .btn-yellow {
+      display: block;
+      width: 100%;
+      height: 49px;
+      letter-spacing: 0;
+      outline: none;
+      margin-top: 9px; }
